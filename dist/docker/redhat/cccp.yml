@@ -15,27 +15,27 @@ job-id: scylla
 #nulecule-file   : nulecule
 
 # This flag tells the container pipeline to skip user defined tests on their container
-test-skip       : True
+#test-skip       : True
 
 # This is path of the script that initiates the user defined tests. It must be able to
 # return an exit code.
-test-script     : null
+#test-script     : null
 
 # This is the path of custom build script.
-build-script    : null
+#build-script    : null
 
 # This is the path of the custom delivery script
-delivery-script : null
+#delivery-script : null
 
 # This flag tells the pipeline to deliver this container to docker hub.
-docker-index    : True
+#docker-index    : True
 
 # This flag can be used to enable or disable the custom delivery
-custom-delivery : False
+#custom-delivery : False
 
 # This flag can be used to enable or disable delivery of container to local registry
-local-delivery  : True
+#local-delivery  : True
 
-Upstreams       :
-        - ref           :
-          url           :
+#Upstreams       :
+#        - ref           :
+#          url           :
